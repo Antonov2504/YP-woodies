@@ -11,6 +11,43 @@
   position: relative;
 }
 
+.section {
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: right;
+  text-transform: uppercase;
+  color: rgba(34, 34, 34, 0.1);
+}
+
+.section__subtitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;  
+}
+
+.section__content {
+  display: flex;
+}
+
+.section__content_column {
+  flex-direction: column;
+}
+
 .container {
   max-width: 952px;
   height: 100%;
@@ -27,6 +64,75 @@
 .logo__image {
   width: 100%;
   height: 100%;
+}
+
+.description-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.description-block_reverse {
+  flex-direction: row-reverse;
+}
+
+.description-block__image {
+  min-width: 388px;
+  min-height: 384px;
+  position: relative;
+}
+
+.description-block__image_vertical {
+  min-width: 287px;
+  min-height: 384px;
+}
+
+.description-block__image_displaced {
+  margin-right: -100px;
+}
+
+.description-block__image_background_figure {
+  min-width: 426px;
+  min-height: 388px;
+}
+
+.description-block__figure {
+  width: 278px;
+  height: 388px;
+  border-radius: 0 120px 0 120px;
+  background-color: #f7dea6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image_background_figure {
+  width: 388px;
+  height: 306px;
+  top: initial;
+  left: initial;
+  right: 0;
+  bottom: 0;
+}
+
+.description-block__text {
+  flex-basis: 648px;
+}
+
+.description-block__text_small {
+  flex-basis: 448px;
 }
 
 .text {
@@ -54,6 +160,20 @@
 
 .text__span-accent {
   font-weight: bold;
+}
+
+.text__span-large {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.title {
+  display: inline-block;
+  margin: 0;
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .button {
@@ -147,13 +267,12 @@
   width: 370px;
   height: 100%;
   background-color: #f9bdbd;
-  border-radius: 0 0 0 100px;
+  border-radius: 0 0 0 120px;
   position: absolute;
   top: 0;
   right: 0;
   z-index: -2;
 }
-
 
 
 
