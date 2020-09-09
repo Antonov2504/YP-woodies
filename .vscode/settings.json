@@ -1,0 +1,9 @@
+{
+  "html.format.wrapLineLength": 0,
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": false
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 800
+}
