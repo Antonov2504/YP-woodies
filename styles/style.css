@@ -296,6 +296,8 @@ html {
   text-decoration: none;
   cursor: pointer;
   user-select: none;
+  transition: .3s;
+  transition-property: background-color, color;
 }
 
 .button:hover {
@@ -345,6 +347,7 @@ html {
   padding: 0 24px;
   line-height: 22px;
   color: rgba(34, 34, 34, 0.75);
+  transition: color .3s;
 }
 
 .menu__link:hover {
