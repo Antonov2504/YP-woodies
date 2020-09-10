@@ -31,6 +31,7 @@
   text-align: right;
   text-transform: uppercase;
   color: rgba(34, 34, 34, 0.1);
+  user-select: none;
 }
 
 .section__subtitle {
@@ -407,7 +408,7 @@
   min-width: 709px;
   margin-left: 108px;
   padding: 24px 0 45px;
-  border-top: 1px solid #C4C4C4;
+  border-top: 1px solid #c4c4c4;
 }
 
 .footer__column {
@@ -420,6 +421,7 @@
   font-size: 18px;
   line-height: 25px;
   color: #333333;
+  cursor: default;
 }
 
 .footer__column-links {
@@ -444,6 +446,7 @@
   line-height: 16px;
   text-align: center;
   text-transform: uppercase;
+  user-select: none;
 }
 
 
