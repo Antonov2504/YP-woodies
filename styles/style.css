@@ -6,6 +6,10 @@ html {
   box-sizing: border-box;
 }
 
+.center {
+  text-align: center;
+}
+
 .page {
   /* min-width: 1152px; */
   max-width: 1152px;
@@ -294,6 +298,11 @@ html {
   user-select: none;
 }
 
+.button:hover {
+  background-color: #3e3f43;
+  color: white;
+}
+
 .button_displaced {
   align-self: flex-end;
 }
@@ -306,6 +315,10 @@ html {
   font-size: initial;
   font-weight: bold;
   color: white;
+}
+
+.button_color_yellow:hover {
+  background-color: #c7971f;
 }
 
 .header {
